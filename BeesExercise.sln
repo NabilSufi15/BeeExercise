@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeesExercise", "BeesExercise\BeesExercise.csproj", "{5CBE659D-9AAA-47C9-AB13-C75B555F91CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeTest", "BeeTest\BeeTest.csproj", "{BE150F9A-2AC6-4410-B160-63D6290DF8E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CBE659D-9AAA-47C9-AB13-C75B555F91CA} = {5CBE659D-9AAA-47C9-AB13-C75B555F91CA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CBE659D-9AAA-47C9-AB13-C75B555F91CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBE659D-9AAA-47C9-AB13-C75B555F91CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBE659D-9AAA-47C9-AB13-C75B555F91CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBE659D-9AAA-47C9-AB13-C75B555F91CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE150F9A-2AC6-4410-B160-63D6290DF8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE150F9A-2AC6-4410-B160-63D6290DF8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE150F9A-2AC6-4410-B160-63D6290DF8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE150F9A-2AC6-4410-B160-63D6290DF8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00C5573C-A936-444A-A7D0-56DCDCD43303}
+	EndGlobalSection
+EndGlobal
